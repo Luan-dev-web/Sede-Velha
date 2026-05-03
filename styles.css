@@ -40,7 +40,7 @@ header {
 }
 
 .logo-da-sede-velha {
-    width: 70px;
+    width: 180px;
     height: 80px;
     margin-left: 30px;
 }
@@ -625,7 +625,7 @@ footer {
     }
 
     .logo-da-sede-velha {
-        width: 70px;
+         width: 180px;
         height: 80px;
         margin-left: 30px;
     }
@@ -1214,7 +1214,7 @@ footer {
     }
 
     .logo-da-sede-velha {
-        width: 70px;
+         width: 180px;
         height: 80px;
         margin-left: 30px;
     }
@@ -1804,7 +1804,7 @@ footer {
     }
 
     .logo-da-sede-velha {
-        width: 70px;
+         width: 180px;
         height: 80px;
         margin-left: 30px;
     }
@@ -2394,7 +2394,7 @@ footer {
     }
 
     .logo-da-sede-velha {
-        width: 70px;
+         width: 180px;
         height: 80px;
         margin-left: 30px;
     }
@@ -2986,7 +2986,7 @@ footer {
     }
 
     .logo-da-sede-velha {
-        width: 70px;
+         width: 180px;
         height: 80px;
         margin-left: 30px;
     }
@@ -3608,7 +3608,7 @@ footer {
     }
 
     .logo-da-sede-velha {
-        width: 70px;
+         width: 180px;
         height: 80px;
         margin-left: 30px;
     }
@@ -4230,7 +4230,7 @@ footer {
     }
 
     .logo-da-sede-velha {
-        width: 70px;
+         width: 180px;
         height: 80px;
         margin-left: 30px;
     }
@@ -4859,7 +4859,7 @@ footer {
     }
 
     .logo-da-sede-velha {
-        width: 60px;
+         width: 160px;
         height: 70px;
         margin-left: 30px;
     }
@@ -5491,7 +5491,7 @@ footer {
     }
 
     .logo-da-sede-velha {
-        width: 60px;
+        width: 160px;
         height: 70px;
         margin-left: 30px;
     }
@@ -6123,7 +6123,7 @@ footer {
     }
 
     .logo-da-sede-velha {
-        width: 42px;
+        width: 115px;
         height: 45px;
         margin-left: 30px;
     }
@@ -6587,7 +6587,7 @@ footer {
     .botao-da-vaquinha {
         background-color: black;
         color: #FEF104;
-        font-size: 10px;
+        font-size: 15px;
         border: 1.5px solid #FEF104;
         border-radius: 10px;
         padding: 10px 20px;
@@ -6597,7 +6597,7 @@ footer {
         align-items: center;
         justify-content: center;
         align-items: center;
-        gap: 2px;
+        gap: 10px;
         height: 40px;
     }
 
@@ -6615,13 +6615,13 @@ footer {
     }
 
     .logo-vaquinha-rede-social {
-        width: 21px;
+        width: 25px;
     }
 
     .botao-do-curso {
         background-color: black;
         color: #FEF104;
-        font-size: 10px;
+        font-size: 15px;
         border: 1.5px solid #FEF104;
         border-radius: 10px;
         padding: 10px 20px;
@@ -6631,23 +6631,23 @@ footer {
         align-items: center;
         justify-content: center;
         align-items: center;
-        gap: 2px;
+        gap: 10px;
         height: 40px;
     }
 
     .botao-do-curso:hover {
-        font-size: 20px;
+        font-size: 21px;
         background-color: #FEF104;
         color: black;
     }
 
     .logo-curso-rede-social {
-        width: 21px;
+        width: 25px;
     }
 
     .acesse-tambem-titulo {
         color: #FEF104;
-        font-size: 23px;
+        font-size: 25px;
         width: 100%;
         text-align: center;
         margin-top: 35px;
@@ -6667,7 +6667,7 @@ footer {
     .descricao-curso-vaquinha {
         color: white;
         width: 100%;
-        font-size: 10.1px;;
+        font-size: 12px;
     }
 
     .curso-vaquinha-individual {
@@ -6680,13 +6680,13 @@ footer {
         border: 1px solid #FEF104;
         border-radius: 20px;
         padding: 10px;
-        width: 140px;
+        width: 200px;
         height: 100%;
     }
 
     .titulo-acesse-oque {
         color: #FEF104;
-        font-size: 15px;
+        font-size: 21px;
     }
 
     /*  Acima REDE-SOCIAL  */
