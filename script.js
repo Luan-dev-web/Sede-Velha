@@ -17,8 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     links.forEach(link => {
-        link.addEventListener('click', (e) => {
-            e.preventDefault(); // 🔥 evita bug com #
+        link.addEventListener('click', () => {
             menu.classList.remove('ativo');
         });
     });
