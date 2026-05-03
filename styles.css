@@ -6,7 +6,7 @@
     /*font-family: "Roboto Slab", serif;*/
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -513,8 +513,9 @@ main {
 }
 
 .logo-curso-rede-social {
-    width: 30px;
-}
+        width: 30px;
+        transition: opacity 0.3s ease;
+    }
 
 .acesse-tambem-titulo {
     color: #FEF104;
@@ -630,7 +631,7 @@ footer {
     }
 
     .logo-da-sede-velha {
-         width: 225px;
+        width: 225px;
         height: 80px;
         margin-left: 30px;
     }
@@ -1107,6 +1108,7 @@ footer {
 
     .logo-curso-rede-social {
         width: 30px;
+        transition: opacity 0.3s ease;
     }
 
     .acesse-tambem-titulo {
@@ -1219,7 +1221,7 @@ footer {
     }
 
     .logo-da-sede-velha {
-         width: 225px;
+        width: 225px;
         height: 80px;
         margin-left: 30px;
     }
@@ -1809,7 +1811,7 @@ footer {
     }
 
     .logo-da-sede-velha {
-         width: 225px;
+        width: 225px;
         height: 80px;
         margin-left: 30px;
     }
@@ -2399,7 +2401,7 @@ footer {
     }
 
     .logo-da-sede-velha {
-         width: 225px;
+        width: 225px;
         height: 80px;
         margin-left: 30px;
     }
@@ -2991,7 +2993,7 @@ footer {
     }
 
     .logo-da-sede-velha {
-         width: 225px;
+        width: 225px;
         height: 80px;
         margin-left: 30px;
     }
@@ -3613,7 +3615,7 @@ footer {
     }
 
     .logo-da-sede-velha {
-         width: 225px;
+        width: 225px;
         height: 80px;
         margin-left: 30px;
     }
@@ -4235,7 +4237,7 @@ footer {
     }
 
     .logo-da-sede-velha {
-         width: 225px;
+        width: 225px;
         height: 80px;
         margin-left: 30px;
     }
@@ -4864,7 +4866,7 @@ footer {
     }
 
     .logo-da-sede-velha {
-         width: 200px;
+        width: 200px;
         height: 70px;
         margin-left: 30px;
     }
@@ -6531,7 +6533,7 @@ footer {
 
     .conectese-rede-social {
         color: #FEF104;
-                font-size: 14px;
+        font-size: 14px;
     }
 
     .hdois-acompanhe-rede-social {

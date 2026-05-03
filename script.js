@@ -101,31 +101,6 @@ botaotres.addEventListener("mouseleave", () => {
 /*XXX  ABAIXO BOTÃO CURSO/VAQUINHA  XXXX*/
 /*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
 
-
-const botaoquatro = document.querySelector(".botao-da-vaquinha");
-const img3 = document.querySelector(".logo-vaquinha-rede-social");
-
-
-botaoquatro.addEventListener("mouseenter", () => {
-  img3.style.opacity = "0";
-
-  setTimeout(() => {
-    img3.src = "assets/preto-vaquinha.webp";
-    img3.style.opacity = "1";
-  }, 150); // metade do tempo da transition
-});
-
-botaoquatro.addEventListener("mouseleave", () => {
-  img3.style.opacity = "0";
-
-  setTimeout(() => {
-    img3.src = "assets/branco-vaquinha.webp";
-    img3.style.opacity = "1";
-  }, 150);
-});
-
-
-
 const botaocinco = document.querySelector(".botao-do-curso");
 const img4 = document.querySelector(".logo-curso-rede-social");
 
