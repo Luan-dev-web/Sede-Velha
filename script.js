@@ -1,4 +1,30 @@
 /*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*XXXXXXX  ABAIXO MENU-TOGGLE   XXXXXXXX*/
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+document.addEventListener('DOMContentLoaded', () => {
+    const toggle = document.querySelector('.menu-toggle');
+    const menu = document.querySelector('.links-do-menu');
+    const links = document.querySelectorAll('.links');
+
+    if (!toggle || !menu) {
+        console.log("Elemento não encontrado");
+        return;
+    }
+
+    toggle.addEventListener('click', () => {
+        menu.classList.toggle('ativo');
+    });
+
+    links.forEach(link => {
+        link.addEventListener('click', (e) => {
+            e.preventDefault(); // 🔥 evita bug com #
+            menu.classList.remove('ativo');
+        });
+    });
+});
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
 /*XXXX  ABAIXO BOTÃO MENU/INICIO   XXXXX*/
 /*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
 
