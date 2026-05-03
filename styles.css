@@ -6134,7 +6134,7 @@ footer {
         margin-right: 0;
         position: fixed;
         z-index: 999999;
-        top: 104px;
+        top: 60px;
         right: 0;
         width: 100%;
         height: 100vh;
@@ -6149,7 +6149,7 @@ footer {
     .links {
         text-decoration: none;
         color: #FEF104;
-        font-size: 25px;
+        font-size: 22px;
         font-weight: bold;
         transition: 0.2s ease-in-out;
         cursor: pointer;
@@ -6298,7 +6298,7 @@ footer {
     .botao-de-contato-dois {
         display: flex;
         background-color: #000000;
-        border: 2px solid #FEF104;
+        border: 0.5px solid #FEF104;
         border-radius: 10px;
         color: #FEF104;
         font-size: 11px;
