@@ -204,6 +204,31 @@ const produtos = {
     usoTexto: "17 gotas"
   },
 
+   ansiedade: {
+    titulo: "DESCRIÇÃO DO SUPLEMENTO BIO-CINCRO",
+    descricao: "O suplemento de Coenzima Q10 associada ao L-Triptofano é uma formulação sinérgica que une o cuidado com a energia física ao suporte do bem-estar mental, atuando tanto na vitalidade celular quanto no equilíbrio emocional. Enquanto a CoQ10 é essencial para a produção de energia nas mitocôndrias e atua como um potente antioxidante que combate o cansaço e apoia a saúde cardiovascular, o L-Triptofano funciona como precursor da serotonina e da melatonina, ajudando a regular o humor, reduzir a ansiedade e melhorar a qualidade do sono. Juntos, esses nutrientes combatem a fadiga física e mental crônica, promovendo mais disposição, relaxamento e proteção contra o estresse oxidativo, sendo ideal para quem busca uma rotina com mais saúde integrativa e vitalidade (recomenda-se orientação médica ou nutricional antes do uso).",
+
+    imagemPrincipal: "assets/ansiedade.png",
+
+    qualidades: [
+      {
+        img: "assets/qualidade-arginina-3.webp",
+        nome: "Auxília na produção de energia celular"
+      },
+      {
+        img: "assets/qualidade-arginina-2.webp",
+        nome: "Contribui para o bem estar"
+      },
+      {
+        img: "assets/qualidade-ansiedade.png",
+        nome: "Reduz ansiedade"
+      }
+    ],
+
+    usoImg: "assets/IMG-uso-SUPLEMENTOS.jpg",
+    usoTexto: "1 capsúla"
+  },
+
   pelecabelounha: {
     titulo: "DESCRIÇÃO DO SUPLEMENTO PELE, CABELO E UNHA",
     descricao: "Este complexo de estética avançada promove uma verdadeira renovação de dentro para fora, combinando a alta concentração de Biotina e Complexo B para acelerar o crescimento capilar e o fortalecimento das unhas através da síntese de queratina. Sua poderosa ação antioxidante, impulsionada pelas Vitaminas A, C e E, estimula a produção natural de colágeno e combate o envelhecimento precoce da pele, enquanto a sinergia dos minerais Zinco, Selênio, Cálcio e Cromo garante a integridade estrutural e a proteção celular. O resultado é uma fórmula de alta biodisponibilidade que entrega cabelos densos, unhas resistentes e uma pele visivelmente mais firme, iluminada e revitalizada.",
