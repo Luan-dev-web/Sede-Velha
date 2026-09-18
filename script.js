@@ -3,24 +3,24 @@
 /*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
 
 document.addEventListener('DOMContentLoaded', () => {
-    const toggle = document.querySelector('.menu-toggle');
-    const menu = document.querySelector('.links-do-menu');
-    const links = document.querySelectorAll('.links');
+  const toggle = document.querySelector('.menu-toggle');
+  const menu = document.querySelector('.links-do-menu');
+  const links = document.querySelectorAll('.links');
 
-    if (!toggle || !menu) {
-        console.log("Elemento não encontrado");
-        return;
-    }
+  if (!toggle || !menu) {
+    console.log("Elemento não encontrado");
+    return;
+  }
 
-    toggle.addEventListener('click', () => {
-        menu.classList.toggle('ativo');
+  toggle.addEventListener('click', () => {
+    menu.classList.toggle('ativo');
+  });
+
+  links.forEach(link => {
+    link.addEventListener('click', () => {
+      menu.classList.remove('ativo');
     });
-
-    links.forEach(link => {
-        link.addEventListener('click', () => {
-            menu.classList.remove('ativo');
-        });
-    });
+  });
 });
 
 /*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
@@ -204,7 +204,7 @@ const produtos = {
     usoTexto: "17 gotas"
   },
 
-   ansiedade: {
+  ansiedade: {
     titulo: "DESCRIÇÃO DO SUPLEMENTO BIO-CINCRO",
     descricao: "O suplemento de Coenzima Q10 associada ao L-Triptofano é uma formulação sinérgica que une o cuidado com a energia física ao suporte do bem-estar mental, atuando tanto na vitalidade celular quanto no equilíbrio emocional. Enquanto a CoQ10 é essencial para a produção de energia nas mitocôndrias e atua como um potente antioxidante que combate o cansaço e apoia a saúde cardiovascular, o L-Triptofano funciona como precursor da serotonina e da melatonina, ajudando a regular o humor, reduzir a ansiedade e melhorar a qualidade do sono. Juntos, esses nutrientes combatem a fadiga física e mental crônica, promovendo mais disposição, relaxamento e proteção contra o estresse oxidativo, sendo ideal para quem busca uma rotina com mais saúde integrativa e vitalidade (recomenda-se orientação médica ou nutricional antes do uso).",
 
@@ -225,7 +225,7 @@ const produtos = {
       }
     ],
 
-    usoImg: "assets/IMG-uso-SUPLEMENTOS.jpg",
+    usoImg: "assets/IMG-uso-pelecabelounha.jpeg",
     usoTexto: "1 capsúla"
   },
 
@@ -302,9 +302,58 @@ const produtos = {
 
     usoImg: "assets/IMG-uso-erva-mate.png",
     usoTexto: "livre"
-  }
-};
+  },
 
+  energy: {
+    titulo: "DESCRIÇÃO DO SUPLEMENTO ENERGY",
+    descricao: "Esta formulação premium combina a potência vasodilatadora da Arginina e o suporte neuroprotetor da Taurina para otimizar o vigor físico e o foco mental, enquanto a sinergia entre Magnésio, Zinco e Vitamina B6 garante uma recuperação muscular eficiente, equilíbrio hormonal e fortalecimento do sistema imunológico. O resultado é um complexo de alta biodisponibilidade que promove máxima performance metabólica e bem-estar integral, ideal para quem busca resultados consistentes e sofisticação nutricional em uma única solução.",
+
+    imagemPrincipal: "assets/Energy.webp",
+
+    qualidades: [
+      {
+        img: "assets/qualidade-energy.jpeg",
+        nome: "Aumenta Energia e Disposição"
+      },
+      {
+        img: "assets/qualidade-arginina-2.webp",
+        nome: "Contribui para o bem estar"
+      },
+      {
+        img: "assets/qualidade-vitaminad3.webp",
+        nome: "Fortalecimento Imunológico"
+      }
+    ],
+
+    usoImg: "assets/IMG-uso-pelecabelounha.jpeg",
+    usoTexto: "2 capsúla"
+  },
+
+  slow: {
+    titulo: "DESCRIÇÃO DO SUPLEMENTO SLOW",
+    descricao: "A inclusão de vitaminas e minerais geralmente não aumenta o efeito estimulante imediato, pode resultar em doses pouco relevantes, gerar redundância com a alimentação e aumentar a complexidade e o custo do produto. Portanto, uma fórmula mais simples e focada nos ativos principais tende a oferecer melhor objetividade e custo-benefício.",
+
+    imagemPrincipal: "assets/Slow.webp",
+
+    qualidades: [
+      {
+        img: "assets/qualidade-slow.jpeg",
+        nome: "Acalmar Nervos"
+      },
+      {
+        img: "assets/qualidade-slow-2.jpeg",
+        nome: "Relaxar"
+      },
+      {
+        img: "assets/qualidade-slow-3.jpeg",
+        nome: "Equilíbrio"
+      }
+    ],
+
+    usoImg: "assets/IMG-uso-pelecabelounha.jpeg",
+    usoTexto: "1 scoup"
+  },
+};
 
 const links = document.querySelectorAll("[data-produto]");
 
