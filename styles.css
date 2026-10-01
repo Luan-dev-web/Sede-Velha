@@ -667,6 +667,23 @@ main {
     font-size: 21px;
 }
 
+.radio{
+    background-color: #e4e4e4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+}
+
+.radio-haragano{
+    width: 70%;
+}
+
+.link-haragano{
+    justify-content: center;
+    display: flex;
+}
+
 /*  Acima REDE-SOCIAL  */
 
 footer {
